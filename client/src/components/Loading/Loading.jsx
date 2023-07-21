@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../../public/loading.gif";
+import logo from "/loading.gif";
 import "./Loading.css";
 function Loading() {
   return (
