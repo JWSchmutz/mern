@@ -4,6 +4,7 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Home from "./components/pages/Home/Home";
 import CardSearch from "./components/pages/CardSearch/CardSearch";
 import EventFinder from "./components/pages/EventFinder/EventFinder";
+import TopCutData from "./components/pages/TopCutData/TopCutData";
 import Games from "./components/pages/Games/Games";
 import Store from "./components/pages/Store/Store";
 import Navbar from "./components/Navbar/Navbar";
