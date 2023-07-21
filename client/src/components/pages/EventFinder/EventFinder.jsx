@@ -6,8 +6,8 @@ import Form from "../../Form/Form";
 import Button from "../../Button/Button";
 import Loading from "../../Loading/Loading";
 import EventCard from "../../EventCard/EventCard";
-// const API_Base = "https://ptcgef.cyclic.app";
-const API_Base = "http://localhost:3001";
+const API_Base = "https://jealous-colt-cowboy-hat.cyclic.app";
+// const API_Base = "http://localhost:3001";
 function EventFinder() {
   const [isLoading, setIsLoading] = useState(true);
   const [errorMessage, setErrorMessage] = useState("");
