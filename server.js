@@ -7,11 +7,11 @@ const port = process.env.PORT || 3001;
 app.use(express.json());
 app.use(cors());
 
-app.use(express.static("client/dist"));
+app.use(express.static("client"));
 
 app.get("/", async (req, res) => {
   // Make a request for a user with a given ID
-  res.sendFile("index.html", { root: __dirname });
+  res.sendFile("dist/index.html", { root: __dirname });
 });
 
 app.get("/addresses", async (req, res) => {
