@@ -9,7 +9,7 @@ app.use(cors());
 
 app.use(express.static(path.join(__dirname, "./client/dist/")));
 app.get("*", (req, res) => {
-  res.sendFile("main.html", { root: "public" });
+  res.sendFile("index.html", { root: "public" });
 });
 
 app.get("/addresses", async (req, res) => {
