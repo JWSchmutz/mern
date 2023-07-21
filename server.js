@@ -11,7 +11,7 @@ app.use(express.static("client/dist"));
 
 app.get("/", async (req, res) => {
   // Make a request for a user with a given ID
-  res.sendFile("dist/index.html", { root: __dirname });
+  res.sendFile("index.html", { root: __dirname });
 });
 
 app.get("/addresses", async (req, res) => {
