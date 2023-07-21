@@ -1,0 +1,27 @@
+body{
+  background-color: var(--darkest);
+  background-image: linear-gradient(to bottom, var(--lighter), var(--primary), var(--dark), var(--darkest), var(--darkest), var(--darkest-gray));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h2.page-title{
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+#root > div{
+  max-width: 1400px;
+  min-height: calc(100vh - 164px);
+  margin: 50px auto;
+}
+
+@media only screen and (min-width: 2000px) {
+  main{
+      margin: 50px auto;  
+    }
+}
